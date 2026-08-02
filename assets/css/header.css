@@ -7,7 +7,12 @@ header{
 }
 
 
-header .presentation h1{
+header .presentation h1 div, header .presentation p span{
+    font-family: 'Neue Machina';
+    font-weight: 600;
+}
+
+header .presentation h1 {
     font-family: 'Neue Machina';
     font-weight: 600;
 }
