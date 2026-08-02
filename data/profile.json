@@ -1,0 +1,83 @@
+{
+  "name": "Artur Costa Barbuzano",
+  "nametwo": "Artur",
+  "photo": "https://avatars.githubusercontent.com/u/201632165?v=4",
+  "job": "Desenvolvedor Front-end",
+  "age": "20",
+  "location": "",
+  "phone": "",
+  "email": "",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+      },
+      {
+        "name": "Bootstrap",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+      },
+      {
+        "name": "Figma",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (avançado)"
+  ],
+  "portfolio": [
+    {
+      "name": "Protótipo Mobile Barbuzano Bank UX/UI Design",
+      "url": "https://github.com/arturbarbuzano/desafio-ux-ui-designer-prototipo-mobile",
+      "github": true
+    },
+    {
+      "name": "Sistema Web Gestão de Eventos",
+      "url": "https://github.com/arturbarbuzano/projeto-sistema-web-gestao-eventos",
+      "github": true
+    },
+    {
+      "name": "Sistema CRUD StudioA Escola de Desenho",
+      "url": "https://github.com/arturbarbuzano/projeto-studioa-escoladesenho",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "",
+      "period": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "period": "",
+      "description": ""
+    },
+    {
+      "name": "",
+      "period": "",
+      "description": ""
+    }
+  ]
+}

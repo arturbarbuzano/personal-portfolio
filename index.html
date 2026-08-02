@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artur Costa Barbuzano</title>
+    <title> Portfolio Artur Costa Barbuzano</title>
 
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
@@ -44,11 +44,11 @@
         <div class="myborder">
         <header>
             <div class="presentation" id="presentation">
-                <h1>Olá, eu sou o Artur</h1>
-                <p>Desenvolvedor Front-end</p>
+                <h1>Olá, eu sou o <div id="profile.name">Carregando</div></h1>
+                <p><span id="profile.job">Carregando</span></p>
             </div>
             <div class="personal">
-                <img class="photo" src="assets\images\artur.jfif" alt="Artur">
+                <img class="photo" id="profile.photo" src="assets\images\artur.jfif" alt="Artur">
                 <div class="contacts">  
                     
                     <a href="https://www.linkedin.com/in/artur-barbuzano-abb9b7318/" target="_blank"><img class="contact" src="assets\images\linkedin.png" alt="Linkedin"></a>
@@ -61,7 +61,7 @@
             </div>
             <section class="about" id="about">
                 <h3>Sobre mim</h3>
-                <p>Olá, me chamo Artur, tenho 20 anos e sou estudante de Análise e Desenvolvimento de Sistemas da Fatec Rubens Lara. Desde de pequeno, sou apaixonado por tecnologia, gosto muito de desenhar e atualmente procuro adquirir novos conhecimentos de front-end e UX Design.</p>
+                <p>Olá, me chamo <span id="profile.nametwo">Carregando</span>, tenho <span id="profile.age">Carregando</span> anos e sou estudante de Análise e Desenvolvimento de Sistemas da Fatec Rubens Lara. Desde de pequeno, sou apaixonado por tecnologia, gosto muito de desenhar e atualmente procuro adquirir novos conhecimentos de front-end e UX Design.</p>
             </section>
         </header>
 
@@ -70,28 +70,47 @@
             <section class="tools" id="tools">
                 <h3>Tecnologias</h3>
 
-                <div class="tool">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                <div class="tool" id="profile.skills.hardSkills">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.sv" alt="HTML"/> <!-- extensão da imagem coloquei sv em vez de svg para usar as imagens colocadas dinamicamente, no caso dos outros itens foram colocados a palavra Carregando em vez do nome pelo mesmo motivo das imagens -->
                     
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.sv" alt="CSS"/>
                     
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.sv" alt="JavaScript"/>
             
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.sv" alt="React"/>
                     
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.sv" alt="Bootstrap"/>
             
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.sv" alt="Figma" />
                 </div>
           
             </section>
 
             <section class="projects" id="projects">
                 <h3>Projetos</h3>
+
+                <div class="repositories" id="profile.portfolio">
+                    <div class="repository">
+                        <h5>Carregando</h5>
+                        <a href="https://github.com/arturbarbuzano/desafio-ux-ui-designer-prototipo-mobile" target="_blank">Carregando</a>
+                    </div>
+
+                    <div class="repository">
+                        <h5>Carregando</h5>
+                        <a href="https://github.com/arturbarbuzano/projeto-sistema-web-gestao-eventos" target="_blank">Carregando</a>
+                    </div>
+
+                    <div class="repository">
+                        <h5>Carregando</h5>
+                        <a href="https://github.com/arturbarbuzano/projeto-studioa-escoladesenho" target="_blank">Carregando</a>
+                    </div>
+                </div>
             </section>
         </div>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="/assets/js/api.js" ></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

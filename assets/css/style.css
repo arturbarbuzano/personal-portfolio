@@ -19,7 +19,7 @@ body{
   background-size: 400% 400%;
   
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   
 }
 @keyframes gradient{
@@ -44,9 +44,10 @@ main{
 }
 
 .myborder{
+  margin: 1rem;
+  padding: 2rem;
   border: 1px solid aliceblue;
   border-radius: 1rem;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 5rem;
