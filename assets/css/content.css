@@ -51,7 +51,7 @@
     height: 1.2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/images/github2.png);
+    background-image: url("../images/github2.png");
     margin-right: 0.5rem;
 }
 
